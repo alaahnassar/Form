@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <form>
+        <h2>Register Form</h2>
+        <div>
+            <div class="disblay">
+                <label for="fname">First Name</label><br>
+                <input type="text" id="fname" name="fname">
+            </div>
+            <div class="disblay">
+                <label for="lname">Last Name</label><br>
+                <input type="text" id="lname" name="lname">
+            </div>
+        </div>
+        <div>
+            <div class="disblay">
+                <label for="birthday">Birthday</label><br>
+                <input type="date" id="birthday" name="birthday">
+            </div>
+            <div class="disblay radio">
+                <label for="name">Gender</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+        </div>
+        <div>
+            <div class="disblay">
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="name">
+            </div>
+            <div class="disblay">
+                <label for="phoneNumber">Phone Number</label><br>
+                <input type="text" name="phoneNumber" id="phoneNumber">
+            </div>
+        </div>
+
+        <div class="disblay">
+            <label for="subject">Subject</label><br>
+            <select id="subject" name="subject" size="1">
+             <option value="subject1">Choose Option</option>
+             <option value="subject2">option1</option>
+             <option value="subject3">option2</option>
+             <option value="subject4">option3</option>
+            </select>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
